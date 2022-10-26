@@ -164,6 +164,12 @@ body{
   font-size: 10px;
 }
 
+@media (max-width: 767px) {
+  .folder1, .folder2{
+    font-size: 6px;
+  }
+}
+
 .folder1 p, .folder2 p{
   margin-top: 9px;
 }
