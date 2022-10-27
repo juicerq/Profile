@@ -14,6 +14,7 @@
 
 </head>
 <body>
+
   <div class="left-menu">
     <div class="left-menu-top">
       <img src="/images/foto.jpg" class="img" title="Foto de Perfil">
@@ -23,15 +24,17 @@
 
     <div class="left-menu-center">
       <ul>
-        <li><img src="/images/map-pin.svg"><p>Brasil</p></li>
-        <li><img src="/images/briefcase.svg"><p>Buscando Oportunidade</p></li>
-        <li><img src="/images/github.svg"><p>julio.cerq</p></li>
-        <li><img src="/images/linkedin.svg"><p>julio cerqueira</p></li>
-        <li><img src="/images/twitter.svg"><p>julio.cerq</p></li>
-        <li><img src="/images/globe.svg"><p>julio.cerq.com.br</p></li>
-        <li><img src="/images/mail.svg"><p>julio.cerqueiira@gmail.com</p></li>
+        <li><img src="/images/map-pin.svg"><a target="_blank" 
+          href="https://www.bing.com/search?q=google+maps+tres+rios+rio+de+janeiro&cvid=05b684c510414fb396d6bf95ccc71df3&aqs=edge..69i57j0l8.5139j0j1&pglt=675&FORM=ANNTA1&PC=U531">Três Rios (RJ) - Brasil</a></li>
+        <li><img src="/images/briefcase.svg"><a>Buscando Oportunidade</a></li>
+        <li><img src="/images/github.svg"><a target="_blank" href="https://github.com/juicerq">juliocerq</a></li>
+        <li><img src="/images/linkedin.svg"><a target="_blank" href="https://www.linkedin.com/in/j%C3%BAlio-cerqueira-6b360a235/">Júlio Cerqueira</a></li>
+        <li><img src="/images/twitter.svg"><a href="">julio.cerq</a></li>
+        <li><img src="/images/globe.svg"><a>julio.cerq.com.br</a></li>
+        <li><img src="/images/mail.svg"><a>julio.cerqueiira@gmail.com</a></li>
       </ul>
     </div>
+
     <div class="left-menu-bottom">
       <h2>Tecnologias</h2>
       <ul class="tecnologies">
@@ -45,11 +48,11 @@
   </div>
 
   <div class="center-menu">
-    <div class="my-projects">
+    <div class="myprojects">
       <p>My Projects</p>
-      <span>Veja Todos</span>
+      <span class='aumentaCaixa' onclick="mudarTamanho('myprojects')">Expandir</span>
     </div>
-    <div class="my-folders">
+    <div class="myfolders">
       <div class="folder1">
         <div class="folder2-title">
           <img src="/images/folder.svg" alt=""><p>First Folder</p>
@@ -57,11 +60,13 @@
         <div class="folder2-content">
           <p>Conteúdo da pasta</p>
         </div>
+
         <div class="folder2-numbers">
           <img src="/images/star.svg">100 
           <img src="/images/git-branch.svg">100
         </div>
       </div>
+
       <div class="folder2">
         <div class="folder2-title">
           <img src="/images/folder.svg" alt=""><p>Second Folder</p>
@@ -76,9 +81,12 @@
       </div>
     </div>
 
-    <div class="recent-posts">
+    <div class="recentposts">
       <p>Recent Posts</p>
+      <span class='aumentaCaixa' onclick="mudarTamanho('recentposts')">Expandir</span>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
