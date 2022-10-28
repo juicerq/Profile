@@ -7,8 +7,8 @@
 }
 
 .img{
-  height: 120px;
-  width: 120px;
+  height: 90%;
+  width: 65%;
   border: 1px solid #837E9F;
   border-radius: 500px;
 }
@@ -23,7 +23,7 @@ body{
 
 .left-menu {
   height: 100%;
-  width: 30%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   margin-left: 15px;
@@ -33,7 +33,8 @@ body{
   border-radius: 5px;
   box-shadow: 1px 1px 1px black;
   background-color: #302F3D;
-  width: 70%;
+  width: 100%;
+  max-width: 325px;
   min-width: 125px;
   margin-top: 15px;
 }
@@ -43,7 +44,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 400px;
+  height: 35%;
   padding: 30px 0;
 }
 
@@ -60,7 +61,7 @@ body{
 }
 
 .left-menu-center{
-  height: 500px;
+  height: 50%px;
 }
 
 .left-menu-center ul{
@@ -90,7 +91,7 @@ body{
 }
 
 .left-menu-bottom{
-  height: 125px;
+  height: 20%;
   margin-bottom: 10px;
 }
 
@@ -101,14 +102,15 @@ body{
 }
 
 .tecnologies {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
   font-size: 13px;
+  height: 10%;
   text-align: center;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .tecnologies li{
@@ -145,6 +147,11 @@ body{
 
 .myprojects span{
   font-size: 10px;
+  cursor: pointer;
+}
+
+.myprojects span:hover{
+  text-decoration: underline;
 }
 
 .myfolders{
@@ -212,12 +219,12 @@ body{
 
 .recentposts span{
   font-size: 10px;
-}
-
-.aumentaCaixa{
+  height: 10px;
   cursor: pointer;
 }
 
-.aumentaCaixa:hover{
+.recentposts span:hover{
   text-decoration: underline;
 }
+
+
